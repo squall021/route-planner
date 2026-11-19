@@ -1,0 +1,42 @@
+# 本機工具、私人設定與憑證
+.codex/
+.agents/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# 執行環境、快取與測試產物
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+artifacts/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 手動下載的路線備份與匯出
+route_*.json
+route_*.csv
+route_*.gpx
+route_*.kml
+route_*.pdf
+
+# 作業系統檔案
+Thumbs.db
+Desktop.ini
+.DS_Store
